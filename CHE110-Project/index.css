@@ -1,0 +1,283 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #293E31;
+    color: white;
+    padding: small;
+  
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 12px;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 32px;
+}
+header nav ul li a {
+    font-size: 18px; /* You can adjust the font size as per your requirement */
+    font-family: 'Montserrat Alternates', sans-serif; /* Applying the custom font */
+    text-decoration: none; /* Removing underline from the links */
+   
+   
+}
+
+
+header p {
+    font-size: 24px; /* You can adjust the font size as per your requirement */
+    font-family: 'Montserrat Alternates', sans-serif; /* Applying the custom font */
+    font-weight: 300; /* Setting the font weight */
+    /* color: #555; Setting the color of the text */
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section styles */
+.header {
+    position: relative;
+    text-align: center; /* Adjust the height as needed */
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.hero {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 65px;
+    color: #F7FD04;
+    text-align: center;
+}
+
+.hero p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px; /* Adjust the size as needed */
+    color: white;
+    top: 30%;
+}
+
+button{font-family: 'Montserrat Alternates', sans-serif;
+font-size: 35px;
+background-color: #8D98A7;
+}
+
+
+button[type="submit"] {
+    background-color: #1640D6; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 8px solid white;
+    
+  }
+  
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: orange;
+}
+
+.blog-grids {
+    margin-bottom: 120px;
+}
+
+.blog-left,.blog-middle,.blog-right{
+	position: relative;
+}
+.blog-info {
+    background: #fff;
+    padding: 30px;
+    margin-top: -2em;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 200px;
+	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.08), 0 5px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 14px 0 rgba(0, 0, 0, 0.06);
+}
+.blog-info p {
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.blog-info h4 {
+    font-size: 22px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.blog-info h4 span.fa {
+    color: #009f4d;
+}
+
+.banner_w3lspvt {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-top {
+    background: url(../images/3.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.banner-top1 {
+    background: url(../images/1.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.banner-top2 {
+    background: url(../images/5.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.banner-top3 {
+    background: url(../images/2.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.w3layouts-banner-info {
+    padding-top: 16em;
+}
+
+.w3layouts-banner-info h3 {
+    font-size: 4em;
+    text-shadow: 3px 4px 6px rgba(45, 45, 45, 0.15);
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.w3layouts-banner-info p {
+    max-width: 650px;
+    color: #fff;
+}
+.w3layouts-banner-info h4 {
+    color: #eee;
+    letter-spacing: 5px;
+	line-height: 35px;
+	text-transform: capitalize;
+}
+
+.w3layouts-banner-info i {
+    vertical-align: middle;
+}
+
+.banner-top,
+.banner-top1,
+.banner-top2,
+.banner-top3 {
+    min-height: 770px;
+}
+.overlay {
+    min-height: 770px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.overlay1 {
+    min-height: 770px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.button-style {
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 2px solid #ccc;
+    background: none;
+    display: inline-block;
+}
+
+.button-style:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
